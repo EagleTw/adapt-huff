@@ -17,7 +17,7 @@ The code is for experimenting adaptive huffman compression with some raw data im
 2. Open the root directory.
 ``` bash
 cd adaptive_huffman_coding
-``
+```
 3. Install the dependencies with Poetry.
 ``` bash
 poetry install --no-root
@@ -40,9 +40,9 @@ Baboon
 
 | Image(256*256)  | Entropy(bit) | Before(byte) | After(byte) -without header | Header(byte) | Compression Rate |
 |-----------------|--------------|--------------|-----------------------------|--------------|------------------|
-| baboon_b        | 0.96909      | 65536        | 11446                       | 4            | xxxxx%           |
-| baboon_halftone | 0.96136      | 65535        | 11347                       | 4            | xxxxx%           |
-| baboon_raw      | 7.24065      | 65536        | 59828                       | 146          | xxxxx%            |
+| baboon_b        | 0.96909      | 65536        | 11446                       | 4            | 82.53%           |
+| baboon_halftone | 0.96136      | 65536        | 11347                       | 4            | 82.68%           |
+| baboon_raw      | 7.24065      | 65536        | 59828                       | 146          | 8.71%            |
 
 Lena 
   
@@ -50,6 +50,6 @@ Lena
 
 | Image(256*256)  | Entropy(bit) | Before(byte) | After(byte) -without header | Header(byte) | Compression Rate |
 |-----------------|--------------|--------------|-----------------------------|--------------|------------------|
-| lena_b          | 0.96968      | 65536        | 11454                       | 4            | xxxxx%           |
-| baboon_halftone | 0.83681      | 65535        | 10380                        | 4            | xxxxx%           |
-| baboon_raw      | 7.59536      | 65536        | 62832                       | 214          | xxxxx%            |
+| lena_b          | 0.96968      | 65536        | 11454                       | 4            | 82.52%           |
+| baboon_halftone | 0.83681      | 65536        | 10380                       | 4            | 84.16%           |
+| baboon_raw      | 7.59536      | 65536        | 62832                       | 214          | 4.13%            |
