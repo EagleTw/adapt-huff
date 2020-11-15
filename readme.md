@@ -53,3 +53,7 @@ Lena
 | lena_b          | 0.96968      | 65536        | 11454                       | 4            | 82.52%           |
 | baboon_halftone | 0.83681      | 65536        | 10380                       | 4            | 84.16%           |
 | baboon_raw      | 7.59536      | 65536        | 62832                       | 214          | 4.13%            |
+
+## origin 
+
+forked from https://github.com/seanwu1105/adaptive-huffman-coding
